@@ -1,60 +1,49 @@
-# 🛡️ Treinando uma IA de Aprendizagem: Linha de Estudo em IAM, Dados & Governança
+# 🛡️ Construindo Minha Central de Estudos em IAM & Governança com Inteligência Artificial
 
-## 📋 Contexto e Objetivos
-Este repositório foi desenvolvido como entrega para o desafio prático da plataforma DIO. O objetivo central é utilizar a Inteligência Artificial ativa, por meio do Google NotebookLM, para estruturar, organizar e acelerar uma linha de estudos de alta performance voltada para a especialização em Engenharia e Governança de Identidades e Acessos (IAM/IAG), integrando automação de dados e imersão em inglês técnico corporativo.
+Olá! Meu nome é **Eliel**, atuo como **Analista de Gestão de Acessos II** e criei este repositório para documentar meu projeto prático do desafio da DIO. 
 
----
-
-## 📚 Curadoria de Fontes (Data Sources)
-Para alimentar o ecossistema no NotebookLM e garantir respostas de alta fidelidade técnica e regulatória, os cadernos temáticos foram populados com as seguintes fontes abertas oficiais:
-
-1. **Pilar 1: IAM & IAG (The Core Business)**
-   - Documentação Oficial do Microsoft Entra ID (Políticas de Acesso Condicional, PIM e Access Reviews).
-   - SailPoint Identity Library (Conceitos de ciclo de vida JML e Segregação de Funções - SoD).
-   - Diretrizes NIST SP 800-63 (Digital Identity Guidelines).
-
-2. **Pilar 2: Identity Data Engineering**
-   - Trilha de DQL SQL (W3Schools) focado em queries de auditoria (`SELECT`, `WHERE`, `INNER JOIN`).
-   - Manuais de especificação estrutural de arquivos JSON/CSV e higienização de logs via Expressões Regulares (Regex).
-
-3. **Pilar 3: Workspace Automation (VS Code & Git)**
-   - Guias de configuração de ambiente e debugging para ambientes Python e PowerShell no VS Code.
-   - Tutoriais oficiais do Git (Atlassian) para gerenciamento de histórico e versionamento de código.
-
-4. **Pilar 4: English for Identity Professionals**
-   - Transcrições textuais completas e roteiros de episódios da série corporativa *The Office* para absorção de inglês prático de escritório.
-   - Especificações técnicas puras (RFC 6749 - OAuth 2.0 Framework) para domínio do vocabulário corporativo internacional.
+Em vez de criar um caderno genérico apenas para cumprir tabela, decidi usar o **Google NotebookLM** para estruturar a minha própria esteira de especialização de carreira. O objetivo foi centralizar conteúdos complexos de Engenharia de Identidades (IAM), Governança (IAG), manipulação de dados e imersão em inglês corporativo em um único ecossistema de aprendizado ativo.
 
 ---
 
-## 🤖 Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
-Durante a iteração e o treinamento da IA de aprendizagem, foram desenvolvidos prompts de alta contextualização e refinados após a análise das respostas:
+## 📚 Como organizei meus Cadernos de Estudos (Curadoria de Fontes)
+Para não sobrecarregar a IA com informações inúteis, separei minha estrutura no NotebookLM em 4 pilares estratégicos, utilizando fontes oficiais de peso no mercado:
 
-### Prompt Estratégico de Teste:
-> *"Com base nas fontes de segurança e governança fornecidas, crie um caso de uso prático onde um Analista de IAM Sênior identifica o acúmulo de privilégios (Privilege Creep) durante a movimentação interna de um colaborador (Mover). Apresente o script lógico de mitigação e as queries de auditoria."*
+1. **Pilar 1: IAM & IAG (O Core Business)**
+   - Alimentado com as documentações oficiais do **Microsoft Entra ID** (focado em *Acesso Condicional* e *PIM*) e a biblioteca conceitual da **SailPoint** para entender profundamente o ciclo de vida e engenharia de governança.
+2. **Pilar 2: Engenharia de Dados Aplicada à Identidade**
+   - Guias práticos de queries SQL (`INNER JOIN`, `GROUP BY`) voltados para auditoria e cruzamento de relatórios, além de estruturas de dados em JSON e Expressões Regulares (Regex) para limpeza de logs de acessos.
+3. **Pilar 3: Automação no Espaço de Trabalho (VS Code & Git)**
+   - Manuais de boas práticas de automação com Python/PowerShell e controle de versão com Git para começar a construir meu portfólio de scripts profissionais.
+4. **Pilar 4: Inglês para Profissionais de Identidade**
+   - Transcrições de episódios da série *The Office* para absorver o inglês corporativo falado no dia a dia de um escritório, além de especificações de protocolos globais (RFC do OAuth 2.0) para dominar os termos técnicos do mercado internacional.
 
-### Cicatrizes e Desafios Superados (Troubleshooting):
-- **Desafio:** No início das interações, o NotebookLM gerava respostas operacionais superficiais e misturava termos técnicos genéricos quando as fontes incluídas eram em português.
-- **Solução:** O escopo das fontes foi restringido estritamente para documentações nativas e especificações técnicas em inglês (*en-us*). Essa mudança elevou drasticamente o nível de maturidade da IA e forçou o aprendizado contínuo do inglês aplicado no ambiente de trabalho.
+---
+
+## 🤖 Engenharia de Prompts & "Cicatrizes" do Processo (Troubleshooting)
+O maior aprendizado desse desafio foi entender que uma IA só responde bem se você souber perguntar. 
+
+### O Prompt que mudou o jogo:
+Para testar o poder do meu caderno de governança, fiz a seguinte pergunta:
+> *"Com base nos manuais de segurança fornecidos, crie um cenário prático onde um analista sênior detecta o acúmulo de privilégios (Privilege Creep) de um funcionário que mudou de área (Mover) e como estruturar uma matriz para mitigar isso."*
+
+### Minhas Cicatrizes (O que deu errado e como corrigi):
+No início, o NotebookLM me trazia respostas muito rasas e teóricas. Percebi que o problema era que eu estava alimentando a IA com artigos genéricos em português. 
+**A solução:** Deletei as fontes secundárias e passei a usar apenas documentações oficiais e RFCs nativas em inglês (*en-us*). O nível técnico das respostas subiu drasticamente e, de quebra, me forçou a praticar a leitura técnica no idioma global.
 
 ---
 
-## 📖 Miniguia de Estudo (Entrega Final)
+## 📖 Meu Miniguia de Sobrevivência em IAM/IAG
 
-### 🧠 Resumo Estruturado do Assunto:
-- **JML (Joiner, Mover, Leaver):** Governança completa do ciclo de vida da identidade dentro de uma corporação. A automação eficiente deste fluxo elimina brechas críticas de segurança, blindando a organização contra vetores de ataque comuns.
-- **SoD (Segregação de Funções):** Matriz de governança imposta para garantir que uma única identidade não possua privilégios conflitantes que permitam fraudes (ex: permissão de criar um fornecedor e aprovar o pagamento simultaneamente).
-- **PoLP (Princípio do Privilégio Mínimo):** O pilar fundamental onde cada usuário, conta de serviço ou processo deve possuir apenas os acessos estritamente necessários para a execução de suas tarefas vigentes.
+### 🧠 Três conceitos que todo Analista de Elite precisa dominar:
+* **Ciclo de Vida JML (Joiner, Mover, Leaver):** Gerenciar a entrada, movimentação e saída do colaborador. Automatizar o desligamento (*Leaver*) é a prioridade número um para evitar contas órfãs esquecidas na rede.
+* **Segregação de Funções (SoD):** Garantir que a mesma pessoa não tenha acessos que permitam fraudes (ex: quem cria um fornecedor no sistema não pode ser o mesmo que aprova o pagamento).
+* **Privilégio Mínimo (PoLP):** Dar ao usuário apenas o acesso estritamente necessário para ele trabalhar naquele momento, nem mais, nem menos.
 
-### 🔍 Glossário Técnico Essencial (Inglês Corporativo de IAM):
-- **Access Certification / Access Review:** Campanhas periódicas obrigatórias de revisão e validação de direitos de acesso feitas pelos gestores.
-- **Privilege Creep:** O acúmulo silencioso de permissões obsoletas que ocorre quando um funcionário muda de cargo ou departamento e seus acessos antigos não são revogados.
-- **Just-In-Time (JIT) Access:** Concessão de privilégios elevados de forma temporária e sob fluxo de aprovação com expiração automática (PIM/PAM).
-
-### 💾 Prompts Reutilizáveis para Revisões Futuras:
-- `Crie uma tabela comparativa detalhada entre modelos RBAC e ABAC com cenários práticos de aplicação no Microsoft Entra ID.`
-- `Escreva a estrutura lógica de um script em Python para ler um arquivo JSON de log e filtrar tentativas falhas de login.`
-- `A partir das fontes de inglês corporativo, simule um diálogo de entrevista focado em perguntas de arquitetura de governança IAG.`
+### 🔍 Dicionário de Bolso (Termos em Inglês que uso direto):
+* **Access Review / Access Certification:** Campanhas de revisão de acessos onde os gestores validam quem ainda precisa de permissões.
+* **Privilege Creep:** O acúmulo silencioso de acessos antigos quando um funcionário muda de cargo e ninguém limpa os acessos anteriores.
+* **Just-In-Time (JIT) Access:** Permissão administrativa temporária. Você se torna "admin" por 2 horas para resolver um problema e o acesso expira sozinho depois.
 
 ---
-*Documentação desenvolvida como portfólio de evolução profissional.*
+*Este projeto foi o pontapé inicial para transformar a forma como estudo e gerencio identidades no meu dia a dia técnico!*
