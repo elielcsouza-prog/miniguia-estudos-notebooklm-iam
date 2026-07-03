@@ -1,0 +1,22 @@
+# 📑 Caderno Temático de IAM & IGA com NotebookLM
+
+## 🔍 Contexto e Objetivos
+Este projeto foi desenvolvido como parte do Desafio de Projeto da DIO. O objetivo é utilizar o NotebookLM para realizar uma análise de governança de acessos, com foco no ciclo de vida de identidades e auditoria de privilégios acumulados (Privilege Creep).
+
+## 📚 Curadoria de Fontes
+Os seguintes materiais foram carregados no NotebookLM para servir de base de conhecimento segura:
+* **Fonte 1:** `documentos/Plan-Microsoft-Entra-Access-Reviews.pdf` - Planeamento de revisões de acessos no Entra ID.
+* **Fonte 2:** `documentos/Governance-in-Focus-SailPoint-IGA.pdf` - Boas práticas em Governação de Identidade.
+* **Fonte 3:** `documentos/Microsoft-Entra-Conditional-Access-Zero-Trust.pdf` - Arquitetura Zero Trust.
+
+## 🤖 Engenharia de Prompts e "Cicatrizes"
+### Prompts Utilizados:
+1. **Análise de Risco (Zero-shot):** *"Com base nos manuais de segurança fornecidos, crie um cenário prático onde um analista sênior detecta o acúmulo de privilégios..."*
+2. **Automação de Validação (Divisão de Tarefas):** *"Escreva a estrutura lógica para um script em PowerShell que valide se utilizadores que mudaram de OU no AD ainda pertencem aos grupos antigos."*
+
+### Cicatrizes (Troubleshooting):
+* *Desafio:* Inicialmente, o modelo tendeu a misturar conceitos de acessos físicos com lógicos.
+* *Solução:* Foi necessário aplicar a técnica de Sintaxe Clara e Instruções com Repetição, delimitando que a análise deveria focar-se estritamente no Active Directory e Azure AD.
+
+## 📖 Miniguia de Estudo (Entrega Final)
+*(Cola aqui o resumo consolidado, o glossário de termos como IGA, RBAC, SOX e os prompts reutilizáveis que a IA gerou para ti)*
